@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html>
-  <head>  
-		<title> Hello world updated ! </title>
-    </head>
-    
-    <body>
-      <h1> this is a heading <br>yes its a heading 
-     </h1>
-			<!-- this is a comment -->
+  <head>
+   <link rel="icon" href="./img/prozrachniy-logo-1-800x575.png" type="image/x-icon">
+   
+   
+    <title>Hello world updated !</title>
+  </head>
+  <body>
+    <a href="#div">this is a facbook link</a>
+    <h1>this is a heading <br />yes its a heading</h1>
+    <!-- this is a comment -->
 
-            <p> par par par par </p>
-            <img src="https://www.motortrend.com/uploads/2022/11/2023-Audi-R8-GT-30.jpg" alt="">
-            <iframe src='https://www.youtube.com/embed/PsSRuQ6urQw'></iframe>
-  </body>
+    <p>par par par par</p>
+    <img
+      src="https://www.motortrend.com/uploads/2022/11/2023-Audi-R8-GT-30.jpg"
+      alt=""
+      width="250"
+    />
+    <iframe src="https://www.youtube.com/embed/PsSRuQ6urQw"></iframe>
+    <div id="div">
+      this is a div
+      <img
+        src="https://www.motortrend.com/uploads/2022/11/2023-Audi-R8-GT-30.jpg"
+        alt=""
+      />
+    </div>
+    <!-- <button onclick="test()"></button> -->
 
-</html>
+
+
+
+
+<input id="input" type="text" placeholder="whats ur name" />
+
+<button onclick="test()">test me </button>
+<div id="name" >
+</div> 
+<table border ="1">
+  <tr>
+    <th>HTML</th>
+    <th>CSS</th>
+    <th>JS</th>
+  </tr>
+  <tr>
+    <td>Paragraphs</td>
+    <td>Selectors</td>
+    <td>DOM</td>
+  </tr>
+  <tr>
+    <td>Tables</td>
+    <td>Styles</td>
+    <td>Elements</td>
+  </tr>
+</table>
+
+
+  <script>
+    function test() {
+      document.getElementById('name').innerHTML = document.getElementById('input').value
+    }
+  </script>
+
+
+
+      </body>
+   </html>
